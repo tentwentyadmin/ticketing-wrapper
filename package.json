@@ -1,0 +1,32 @@
+{
+  "name": "ticketing-wrapper",
+  "version": "1.0.0",
+  "description": "A wrapper module.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build" : "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tentwentyadmin/ticketing-wrapper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tentwentyadmin/ticketing-wrapper/issues"
+  },
+  "homepage": "https://github.com/tentwentyadmin/ticketing-wrapper#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "got": "^11.8.2"
+  }
+}
