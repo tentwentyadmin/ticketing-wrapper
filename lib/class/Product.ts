@@ -7,8 +7,8 @@ export class Product {
     }
 
     async getProductHierarchy() {
-        
-        const url = '/Product/Hierarchy';
+
+        const url = 'Product/Hierarchy';
 
         const room = (await this.rest.get(url));
 

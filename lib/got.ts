@@ -7,7 +7,8 @@ import got, { Got, OptionsOfTextResponseBody, Response, HTTPError } from 'got';
 export class Rest {
     private instance: Got;
 
-    constructor(endPoint: string, channelID: string, username: string, password: string, token: string, apiKey: string) {
+    constructor(endPoint: string, channelID: string,token: string, username: string, password: string,  apiKey: string) {
+
         this.instance = got.extend({
             prefixUrl: `${endPoint}/${channelID}`,
             responseType: 'json',

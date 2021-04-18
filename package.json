@@ -1,6 +1,6 @@
 {
   "name": "ticketing-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "A wrapper module.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

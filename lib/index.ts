@@ -20,3 +20,5 @@ class TicketingWrapper {
         this.product = new Product(this.rest);
     }
 }
+
+export default TicketingWrapper;
